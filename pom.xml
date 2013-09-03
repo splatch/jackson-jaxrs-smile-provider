@@ -21,12 +21,13 @@
   <parent>
     <groupId>com.fasterxml</groupId>
     <artifactId>oss-parent</artifactId>
-    <version>4</version>
+    <version>11</version>
   </parent>
   <groupId>com.fasterxml.jackson.jaxrs</groupId>
   <artifactId>jackson-jaxrs-smile-provider</artifactId>
   <version>2.1.6-SNAPSHOT</version>
   <name>Jackson-JAXRS-Smile_Provider</name>
+  <packaging>bundle</packaging>
   <description>Functionality to handle Smile (binary JSON) format input/output for JAX-RS implementations (like Jersey and RESTeasy) using standard Jackson data binding.
   </description>
   <url>http://wiki.fasterxml.com/JacksonHome</url>
